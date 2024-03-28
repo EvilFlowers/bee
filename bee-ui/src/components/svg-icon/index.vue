@@ -36,9 +36,6 @@ export default defineComponent({
     return { symbolId }
   }
 })
-
-export class SvgIcon {
-}
 </script>
 
 <template>

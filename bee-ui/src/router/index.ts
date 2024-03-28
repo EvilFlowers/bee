@@ -98,7 +98,7 @@ router.beforeEach((to, from, next) => {
       }
     }
   } else {
-    store.updateState({appISReady: true, appIsRender: true});
+    store.updateState({appIsReady: true, appIsRender: true});
     next();
   }
 });

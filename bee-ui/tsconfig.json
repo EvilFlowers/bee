@@ -15,12 +15,9 @@
     "sourceMap": true,
     "resolveJsonModule": true,
     "baseUrl": ".",
-    "types": ["vite/client"],
+    "types": ["vite/client", "vite-plugin-svg-icons/client"],
     "paths": {
       "@/*": ["src/*"]
-    },
-    "compilerOptions": {
-      "types": ["vite-plugin-svg-icons/client"]
     },
     "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
   },

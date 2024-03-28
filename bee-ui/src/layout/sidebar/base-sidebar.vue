@@ -1,6 +1,6 @@
 <script lang="ts">
 import {defineComponent, onMounted, reactive, ref, watch} from 'vue'
-import {SidebarMenusItems} from "./sidebar-menus-items.vue"
+import SidebarMenusItems from "./sidebar-menus-items.vue"
 import {RouteRecordRaw, useRoute, useRouter} from "vue-router";
 import {useWindowSize} from "@vueuse/core";
 import {toValidRoute} from "@/utils/router"

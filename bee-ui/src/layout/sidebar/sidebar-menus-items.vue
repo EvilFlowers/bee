@@ -1,5 +1,5 @@
 <script lang="ts">
-import { SvgIcon } from '@/components/svg-icon/index.vue'
+import SvgIcon from '@/components/svg-icon/index.vue'
 import classNames from 'classnames';
 import {defineComponent, PropType} from 'vue'
 import {RouteRecordRaw} from "vue-router";
@@ -22,12 +22,6 @@ export default defineComponent({
     return { props, classNames, getStyle }
   }
 })
-
-export class SidebarMenusItms {
-}
-
-export class SidebarMenusItems {
-}
 </script>
 
 <template>
